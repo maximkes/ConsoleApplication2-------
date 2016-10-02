@@ -43,13 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="Class2.cs" />
-    <Compile Include="Class3.cs" />
-    <Compile Include="Class4.cs" />
-    <Compile Include="Class5.cs" />
-    <Compile Include="Class6.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="str.cs" />
+    <Compile Include="classic.cs" />
+    <Compile Include="mag.cs" />
+    <Compile Include="smertnic.cs" />
+    <Compile Include="Heavy.cs" />
+    <Compile Include="medik.cs" />
+    <Compile Include="game.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

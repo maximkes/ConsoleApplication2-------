@@ -7,16 +7,16 @@ namespace ConsoleApplication2
 {
     class Mag : H
     {
-        int hd = 0;
-        public bool allive;
         public Mag ()
         {
             base.hp = 200;
             base.dmg = 10;
+            base.clss = "Mag";
         }
-        public void kold(H poc1, H poc2)
+        
+        public static void kold(H poc1, H poc2,int hd)
         {
-            if (hd == 5)
+            if (hd % 5 ==0)
             {
                 hd = 0;
                 poc1.dmg += 10;
@@ -24,8 +24,18 @@ namespace ConsoleApplication2
             }
             else
             {
-                hd++;
+                if (hd % 5==1)
+                {
+                    if (hd == 1)
+                    { }
+                    else
+                    {
+                        poc1.dmg -= 10;
+                        poc2.dmg -= 10;
+                    }
+                }
             }
+                hd++;
         }
     }
 }

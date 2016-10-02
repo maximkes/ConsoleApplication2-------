@@ -5,14 +5,13 @@ using System.Text;
 
 namespace ConsoleApplication2
 {
-    class Smertnic : H
+    class Hvy:H
     {
-        public bool allive;
-        public Smertnic()
+        public Hvy()
         {
-            base.hp = 1;
-            base.dmg = 500;
+            base.hp = 200;
+            base.dmg = 10;
+            base.clss = "Hvy";
         }
     }
 }
-
